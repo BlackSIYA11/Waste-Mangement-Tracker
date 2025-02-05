@@ -1,0 +1,24 @@
+﻿<Window x:Class="Waste_Management_Tracker.WasteLogWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Log Waste" Height="300" Width="400">
+    <Grid Margin="20">
+        <StackPanel>
+            <ComboBox Name="WasteTypeComboBox" Margin="0,10" Text="Select Waste Type">
+                <ComboBoxItem Content="Plastic" />
+                <ComboBoxItem Content="Paper" />
+                <ComboBoxItem Content="Glass" />
+                <ComboBoxItem Content="Metal" />
+                <ComboBoxItem Content="Organic" />
+                <ComboBoxItem Content="Electronics" />
+                <ComboBoxItem Content="Textiless" />
+            </ComboBox>
+            <TextBox Name="QuantityTextBox" Text="Quantity (kg)" Margin="0,10"/>
+            <DatePicker Name="DatePicker" Margin="0,10" />
+            <Button Content="Log Waste" Click="LogWasteButton_Click" Margin="0,20"/>
+            <TextBlock Name="StatusTextBlock" Foreground="Green"/>
+            <Button Content="Generate Report" Click="GenerateReportButton_Click" />
+
+        </StackPanel>
+    </Grid>
+</Window>
