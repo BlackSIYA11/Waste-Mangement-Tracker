@@ -12,6 +12,6 @@ User-friendly Interface: WPF-based interface with placeholder text, user input v
 Technologies Used
 C#: Main programming language used for the application.
 WPF: Windows Presentation Foundation for building the user interface.
-SQL Database: A database for storing user information (using a SQL Server or SQLite as per the implementation).
+SQL Database: A database for storing user information (using a SQL Server.
 BCrypt: Password hashing library for secure password management.
 XAML: Markup language for designing the application's user interface.
